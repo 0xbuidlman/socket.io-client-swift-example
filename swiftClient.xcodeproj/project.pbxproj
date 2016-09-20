@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74AC61241AAB680200DE3B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AC61231AAB680200DE3B77 /* AppDelegate.swift */; };
+		74AC61291AAB680200DE3B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AC61271AAB680200DE3B77 /* Main.storyboard */; };
+		74AC612B1AAB680200DE3B77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AC612A1AAB680200DE3B77 /* Images.xcassets */; };
+		74AC612E1AAB680200DE3B77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AC612C1AAB680200DE3B77 /* LaunchScreen.xib */; };
+		ECFDA81F1D916D6E0094DDC0 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8071D916D6E0094DDC0 /* SocketAckEmitter.swift */; };
+		ECFDA8201D916D6E0094DDC0 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8081D916D6E0094DDC0 /* SocketAckManager.swift */; };
+		ECFDA8211D916D6E0094DDC0 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8091D916D6E0094DDC0 /* SocketAnyEvent.swift */; };
+		ECFDA8221D916D6E0094DDC0 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80A1D916D6E0094DDC0 /* SocketClientManager.swift */; };
+		ECFDA8231D916D6E0094DDC0 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80B1D916D6E0094DDC0 /* SocketEngine.swift */; };
+		ECFDA8241D916D6E0094DDC0 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80C1D916D6E0094DDC0 /* SocketEngineClient.swift */; };
+		ECFDA8251D916D6E0094DDC0 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80D1D916D6E0094DDC0 /* SocketEnginePacketType.swift */; };
+		ECFDA8261D916D6E0094DDC0 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80E1D916D6E0094DDC0 /* SocketEnginePollable.swift */; };
+		ECFDA8271D916D6E0094DDC0 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA80F1D916D6E0094DDC0 /* SocketEngineSpec.swift */; };
+		ECFDA8281D916D6E0094DDC0 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8101D916D6E0094DDC0 /* SocketEngineWebsocket.swift */; };
+		ECFDA8291D916D6E0094DDC0 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8111D916D6E0094DDC0 /* SocketEventHandler.swift */; };
+		ECFDA82A1D916D6E0094DDC0 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8121D916D6E0094DDC0 /* SocketExtensions.swift */; };
+		ECFDA82B1D916D6E0094DDC0 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8131D916D6E0094DDC0 /* SocketIOClient.swift */; };
+		ECFDA82C1D916D6E0094DDC0 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8141D916D6E0094DDC0 /* SocketIOClientConfiguration.swift */; };
+		ECFDA82D1D916D6E0094DDC0 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8151D916D6E0094DDC0 /* SocketIOClientOption.swift */; };
+		ECFDA82E1D916D6E0094DDC0 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8161D916D6E0094DDC0 /* SocketIOClientSpec.swift */; };
+		ECFDA82F1D916D6E0094DDC0 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8171D916D6E0094DDC0 /* SocketIOClientStatus.swift */; };
+		ECFDA8301D916D6E0094DDC0 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8181D916D6E0094DDC0 /* SocketLogger.swift */; };
+		ECFDA8311D916D6E0094DDC0 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8191D916D6E0094DDC0 /* SocketPacket.swift */; };
+		ECFDA8321D916D6E0094DDC0 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA81A1D916D6E0094DDC0 /* SocketParsable.swift */; };
+		ECFDA8331D916D6E0094DDC0 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA81B1D916D6E0094DDC0 /* SocketStringReader.swift */; };
+		ECFDA8341D916D6E0094DDC0 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA81C1D916D6E0094DDC0 /* SocketTypes.swift */; };
+		ECFDA8351D916D6E0094DDC0 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA81D1D916D6E0094DDC0 /* SSLSecurity.swift */; };
+		ECFDA8361D916D6E0094DDC0 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA81E1D916D6E0094DDC0 /* WebSocket.swift */; };
+		ECFDA8381D916DDB0094DDC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDA8371D916DDB0094DDC0 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74AC611E1AAB680200DE3B77 /* swiftClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AC61221AAB680200DE3B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AC61231AAB680200DE3B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74AC61281AAB680200DE3B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AC612A1AAB680200DE3B77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74AC612D1AAB680200DE3B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		74AC61381AAB680200DE3B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AC61391AAB680200DE3B77 /* TicTacIOiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacIOiOSTests.swift; sourceTree = "<group>"; };
+		ECFDA8071D916D6E0094DDC0 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketAckEmitter.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8081D916D6E0094DDC0 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketAckManager.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8091D916D6E0094DDC0 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80A1D916D6E0094DDC0 /* SocketClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketClientManager.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80B1D916D6E0094DDC0 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEngine.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80C1D916D6E0094DDC0 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80D1D916D6E0094DDC0 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEnginePacketType.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80E1D916D6E0094DDC0 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEnginePollable.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA80F1D916D6E0094DDC0 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEngineSpec.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8101D916D6E0094DDC0 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEngineWebsocket.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8111D916D6E0094DDC0 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8121D916D6E0094DDC0 /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketExtensions.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8131D916D6E0094DDC0 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketIOClient.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8141D916D6E0094DDC0 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketIOClientConfiguration.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8151D916D6E0094DDC0 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketIOClientOption.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8161D916D6E0094DDC0 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketIOClientSpec.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8171D916D6E0094DDC0 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketIOClientStatus.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8181D916D6E0094DDC0 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketLogger.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8191D916D6E0094DDC0 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketPacket.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA81A1D916D6E0094DDC0 /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketParsable.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA81B1D916D6E0094DDC0 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketStringReader.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA81C1D916D6E0094DDC0 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = TicTacIOiOS/SocketIOClientSwift/SocketTypes.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA81D1D916D6E0094DDC0 /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = TicTacIOiOS/SocketIOClientSwift/SSLSecurity.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA81E1D916D6E0094DDC0 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = TicTacIOiOS/SocketIOClientSwift/WebSocket.swift; sourceTree = SOURCE_ROOT; };
+		ECFDA8371D916DDB0094DDC0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AC611B1AAB680200DE3B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74AC61151AAB680200DE3B77 = {
+			isa = PBXGroup;
+			children = (
+				74F0269F1BAC8389001C737A /* SocketIOClientSwift */,
+				74AC61201AAB680200DE3B77 /* swiftClient */,
+				74AC61361AAB680200DE3B77 /* TicTacIOiOSTests */,
+				74AC611F1AAB680200DE3B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74AC611F1AAB680200DE3B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AC611E1AAB680200DE3B77 /* swiftClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AC61201AAB680200DE3B77 /* swiftClient */ = {
+			isa = PBXGroup;
+			children = (
+				74AC61231AAB680200DE3B77 /* AppDelegate.swift */,
+				ECFDA8371D916DDB0094DDC0 /* ViewController.swift */,
+				74AC61271AAB680200DE3B77 /* Main.storyboard */,
+				74AC612A1AAB680200DE3B77 /* Images.xcassets */,
+				74AC612C1AAB680200DE3B77 /* LaunchScreen.xib */,
+				74AC61211AAB680200DE3B77 /* Supporting Files */,
+			);
+			name = swiftClient;
+			path = TicTacIOiOS;
+			sourceTree = "<group>";
+		};
+		74AC61211AAB680200DE3B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AC61221AAB680200DE3B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74AC61361AAB680200DE3B77 /* TicTacIOiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				74AC61391AAB680200DE3B77 /* TicTacIOiOSTests.swift */,
+				74AC61371AAB680200DE3B77 /* Supporting Files */,
+			);
+			path = TicTacIOiOSTests;
+			sourceTree = "<group>";
+		};
+		74AC61371AAB680200DE3B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74AC61381AAB680200DE3B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74F0269F1BAC8389001C737A /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDA8071D916D6E0094DDC0 /* SocketAckEmitter.swift */,
+				ECFDA8081D916D6E0094DDC0 /* SocketAckManager.swift */,
+				ECFDA8091D916D6E0094DDC0 /* SocketAnyEvent.swift */,
+				ECFDA80A1D916D6E0094DDC0 /* SocketClientManager.swift */,
+				ECFDA80B1D916D6E0094DDC0 /* SocketEngine.swift */,
+				ECFDA80C1D916D6E0094DDC0 /* SocketEngineClient.swift */,
+				ECFDA80D1D916D6E0094DDC0 /* SocketEnginePacketType.swift */,
+				ECFDA80E1D916D6E0094DDC0 /* SocketEnginePollable.swift */,
+				ECFDA80F1D916D6E0094DDC0 /* SocketEngineSpec.swift */,
+				ECFDA8101D916D6E0094DDC0 /* SocketEngineWebsocket.swift */,
+				ECFDA8111D916D6E0094DDC0 /* SocketEventHandler.swift */,
+				ECFDA8121D916D6E0094DDC0 /* SocketExtensions.swift */,
+				ECFDA8131D916D6E0094DDC0 /* SocketIOClient.swift */,
+				ECFDA8141D916D6E0094DDC0 /* SocketIOClientConfiguration.swift */,
+				ECFDA8151D916D6E0094DDC0 /* SocketIOClientOption.swift */,
+				ECFDA8161D916D6E0094DDC0 /* SocketIOClientSpec.swift */,
+				ECFDA8171D916D6E0094DDC0 /* SocketIOClientStatus.swift */,
+				ECFDA8181D916D6E0094DDC0 /* SocketLogger.swift */,
+				ECFDA8191D916D6E0094DDC0 /* SocketPacket.swift */,
+				ECFDA81A1D916D6E0094DDC0 /* SocketParsable.swift */,
+				ECFDA81B1D916D6E0094DDC0 /* SocketStringReader.swift */,
+				ECFDA81C1D916D6E0094DDC0 /* SocketTypes.swift */,
+				ECFDA81D1D916D6E0094DDC0 /* SSLSecurity.swift */,
+				ECFDA81E1D916D6E0094DDC0 /* WebSocket.swift */,
+			);
+			name = SocketIOClientSwift;
+			path = TicTacIOiOS/SocketIOClientSwift/SocketIOClientSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AC611D1AAB680200DE3B77 /* swiftClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AC613D1AAB680200DE3B77 /* Build configuration list for PBXNativeTarget "swiftClient" */;
+			buildPhases = (
+				74AC611A1AAB680200DE3B77 /* Sources */,
+				74AC611B1AAB680200DE3B77 /* Frameworks */,
+				74AC611C1AAB680200DE3B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftClient;
+			productName = TicTacIOiOS;
+			productReference = 74AC611E1AAB680200DE3B77 /* swiftClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AC61161AAB680200DE3B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Erik Little";
+				TargetAttributes = {
+					74AC611D1AAB680200DE3B77 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = R8QLXTKA34;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 74AC61191AAB680200DE3B77 /* Build configuration list for PBXProject "swiftClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AC61151AAB680200DE3B77;
+			productRefGroup = 74AC611F1AAB680200DE3B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AC611D1AAB680200DE3B77 /* swiftClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AC611C1AAB680200DE3B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AC61291AAB680200DE3B77 /* Main.storyboard in Resources */,
+				74AC612E1AAB680200DE3B77 /* LaunchScreen.xib in Resources */,
+				74AC612B1AAB680200DE3B77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AC611A1AAB680200DE3B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFDA82B1D916D6E0094DDC0 /* SocketIOClient.swift in Sources */,
+				ECFDA82A1D916D6E0094DDC0 /* SocketExtensions.swift in Sources */,
+				ECFDA8281D916D6E0094DDC0 /* SocketEngineWebsocket.swift in Sources */,
+				ECFDA82D1D916D6E0094DDC0 /* SocketIOClientOption.swift in Sources */,
+				ECFDA82E1D916D6E0094DDC0 /* SocketIOClientSpec.swift in Sources */,
+				ECFDA82F1D916D6E0094DDC0 /* SocketIOClientStatus.swift in Sources */,
+				ECFDA8301D916D6E0094DDC0 /* SocketLogger.swift in Sources */,
+				ECFDA8211D916D6E0094DDC0 /* SocketAnyEvent.swift in Sources */,
+				ECFDA8331D916D6E0094DDC0 /* SocketStringReader.swift in Sources */,
+				ECFDA8361D916D6E0094DDC0 /* WebSocket.swift in Sources */,
+				ECFDA8321D916D6E0094DDC0 /* SocketParsable.swift in Sources */,
+				ECFDA8341D916D6E0094DDC0 /* SocketTypes.swift in Sources */,
+				ECFDA8291D916D6E0094DDC0 /* SocketEventHandler.swift in Sources */,
+				ECFDA8241D916D6E0094DDC0 /* SocketEngineClient.swift in Sources */,
+				ECFDA8311D916D6E0094DDC0 /* SocketPacket.swift in Sources */,
+				ECFDA8201D916D6E0094DDC0 /* SocketAckManager.swift in Sources */,
+				ECFDA8271D916D6E0094DDC0 /* SocketEngineSpec.swift in Sources */,
+				ECFDA81F1D916D6E0094DDC0 /* SocketAckEmitter.swift in Sources */,
+				ECFDA8231D916D6E0094DDC0 /* SocketEngine.swift in Sources */,
+				74AC61241AAB680200DE3B77 /* AppDelegate.swift in Sources */,
+				ECFDA82C1D916D6E0094DDC0 /* SocketIOClientConfiguration.swift in Sources */,
+				ECFDA8351D916D6E0094DDC0 /* SSLSecurity.swift in Sources */,
+				ECFDA8261D916D6E0094DDC0 /* SocketEnginePollable.swift in Sources */,
+				ECFDA8381D916DDB0094DDC0 /* ViewController.swift in Sources */,
+				ECFDA8251D916D6E0094DDC0 /* SocketEnginePacketType.swift in Sources */,
+				ECFDA8221D916D6E0094DDC0 /* SocketClientManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74AC61271AAB680200DE3B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AC61281AAB680200DE3B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74AC612C1AAB680200DE3B77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AC612D1AAB680200DE3B77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AC613B1AAB680200DE3B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74AC613C1AAB680200DE3B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AC613E1AAB680200DE3B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8QLXTKA34;
+				INFOPLIST_FILE = TicTacIOiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milkbartube.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74AC613F1AAB680200DE3B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8QLXTKA34;
+				INFOPLIST_FILE = TicTacIOiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milkbartube.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AC61191AAB680200DE3B77 /* Build configuration list for PBXProject "swiftClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AC613B1AAB680200DE3B77 /* Debug */,
+				74AC613C1AAB680200DE3B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AC613D1AAB680200DE3B77 /* Build configuration list for PBXNativeTarget "swiftClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AC613E1AAB680200DE3B77 /* Debug */,
+				74AC613F1AAB680200DE3B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AC61161AAB680200DE3B77 /* Project object */;
+}
